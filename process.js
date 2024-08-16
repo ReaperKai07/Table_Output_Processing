@@ -27,7 +27,7 @@ fetch('Table_Input.csv')
 
         // calculate values for Alpha, Beta, and Charlie
         const alphaValue = values['A5'] + values['A20'];
-        const betaValue = values['A15'] + values['A7'];
+        const betaValue = values['A15'] / values['A7'];
         const charlieValue = values['A13'] * values['A12'];
 
         // display calculated values for Table 2
