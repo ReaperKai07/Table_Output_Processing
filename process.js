@@ -1,4 +1,4 @@
-fetch('Table_Input.csv')
+fetch('table.csv')
     .then(response => response.text())
     .then(data => {
 
